@@ -12,7 +12,7 @@
 Install required libraries using requirements.txt
 `pip install -r requirements.txt`
 
-### 2. Run the Scritp, Providing Arguments:
+### 2. Run the Script, Providing Arguments:
 - file: Path to the file for verification.
 - signature: Path to the signature file containing the expected hash.
 - algorithm: Hash algorithm to use.
