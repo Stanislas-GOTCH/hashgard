@@ -12,7 +12,10 @@
 Install required libraries using requirements.txt
 `pip install -r requirements.txt`
 
-### 2. Run the Script, Providing Arguments:
+### 2. Clone the Repo
+`git clone https://github.com/Stanislas-GOTCH/hashguard.git && cd hashguard`
+
+### 3. Run the Script, Providing Arguments:
 - file: Path to the file for verification.
 - signature: Path to the signature file containing the expected hash.
 - algorithm: Hash algorithm to use.
