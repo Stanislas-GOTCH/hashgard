@@ -1,26 +1,26 @@
 # 🔐 HashGard: Verify Your Files with Confidence
 **HashGard** is a Python script that safeguards file integrity by comparing calculated hashes with expected values stored in signature files.
 
-## 🎯 Key Features:
+## 🎯 Key Features
 - Calculates file hashes using various algorithms.
 - Compares calculated hashes with signatures for verification.
 - Provides clear messages indicating hash match/mismatch. ✔️  / ❌
 
-## 🔧 Usage:
+## 🔧 Usage
 
-### 1. Dependencies:
+### 1. Dependencies
 Install required libraries using requirements.txt
 `pip install -r requirements.txt`
 
-### 2. Clone the Repo:
+### 2. Clone the Repo
 `git clone https://github.com/Stanislas-GOTCH/hashguard.git && cd hashguard`
 
-### 3. Run the Script, Providing Arguments:
+### 3. Run the Script, Providing Arguments
 - file: Path to the file for verification.
 - signature: Path to the signature file containing the expected hash.
 - algorithm: Hash algorithm to use.
 
-#### Example:
+#### Example
 `python hashgard.py my_file.iso my_file.sha256 sha256`
 
 This verifies the `sha256` hash of `my_file.iso` against the hash stored in `my_file.sha256`.
